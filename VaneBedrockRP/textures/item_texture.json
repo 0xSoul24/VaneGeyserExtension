@@ -10,8 +10,8 @@
     "ancient_tome_of_knowledge": {
       "textures": "textures/vane_enchantments/items/ancient_tome_of_knowledge"
     },
-    "north_compass_item": {
-      "textures": "textures/vane_trifles/items/north_compass_item"
+    "north_compass": {
+      "textures": "textures/vane_trifles/items/north_compass"
     },
     "diamond_sickle": {
       "textures": "textures/vane_trifles/items/diamond_sickle"

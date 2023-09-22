@@ -1,0 +1,179 @@
+{
+  "format_version": "1",
+  "items": {
+    "minecraft:compass": [
+      {
+        "name": "north_compass",
+        "allow_offhand": true,
+        "icon": "north_compass_item",
+        "custom_model_data": 7733267
+      }
+    ],
+    "minecraft:diamond_hoe": [
+      {
+        "name": "diamond_sickle",
+        "allow_offhand": true,
+        "icon": "diamond_sickle",
+        "custom_model_data": 7733256
+      }
+    ],
+    "minecraft:dropper": [
+      {
+        "name": "pouch",
+        "allow_offhand": true,
+        "icon": "pouch",
+        "custom_model_data": 7733270
+      }
+    ],
+    "minecraft:elytra": [
+      {
+        "name": "reinforced_elytra",
+        "allow_offhand": true,
+        "icon": "reinforced_elytra",
+        "custom_model_data": 7733250
+      }
+    ],
+    "minecraft:glass_bottle": [
+      {
+        "name": "empty_xp_bottle",
+        "allow_offhand": true,
+        "icon": "empty_xp_bottle",
+        "custom_model_data": 7733258
+      }
+    ],
+    "minecraft:golden_hoe": [
+      {
+        "name": "golden_sickle",
+        "allow_offhand": true,
+        "icon": "golden_sickle",
+        "custom_model_data": 7733255
+      }
+    ],
+    "minecraft:honey_bottle": [
+      {
+        "name": "small_xp_bottle",
+        "allow_offhand": true,
+        "icon": "small_xp_bottle",
+        "custom_model_data": 7733259
+      },
+      {
+        "name": "medium_xp_bottle",
+        "allow_offhand": true,
+        "icon": "medium_xp_bottle",
+        "custom_model_data": 7733260
+      },
+      {
+        "name": "large_xp_bottle",
+        "allow_offhand": true,
+        "icon": "large_xp_bottle",
+        "custom_model_data": 7733261
+      }
+    ],
+    "minecraft:iron_hoe": [
+      {
+        "name": "iron_sickle",
+        "allow_offhand": true,
+        "icon": "iron_sickle",
+        "custom_model_data": 7733254
+      }
+    ],
+    "minecraft:netherite_hoe": [
+      {
+        "name": "netherite_sickle",
+        "allow_offhand": true,
+        "icon": "netherite_sickle",
+        "custom_model_data": 7733257
+      }
+    ],
+    "minecraft:paper": [
+      {
+        "name": "papyrus_scroll",
+        "allow_offhand": true,
+        "icon": "papyrus_scroll",
+        "custom_model_data": 7733263
+      }
+    ],
+    "minecraft:shulker_box": [
+      {
+        "name": "backpack",
+        "allow_offhand": true,
+        "icon": "backpack",
+        "custom_model_data": 7733271
+      }
+    ],
+    "minecraft:slime_ball": [
+      {
+        "name": "slime_bucket",
+        "allow_offhand": true,
+        "icon": "slime_bucket",
+        "custom_model_data": 7733268
+      },
+      {
+        "name": "slime_bucket_excited",
+        "allow_offhand": true,
+        "icon": "slime_bucket_excited",
+        "custom_model_data": 7733269
+      }
+    ],
+    "minecraft:stone_hoe": [
+      {
+        "name": "stone_sickle",
+        "allow_offhand": true,
+        "icon": "stone_sickle",
+        "custom_model_data": 7733253
+      }
+    ],
+    "minecraft:warped_fungus_on_a_stick": [
+      {
+        "name": "home_scroll",
+        "allow_offhand": true,
+        "icon": "home_scroll",
+        "custom_model_data": 7733248
+      },
+      {
+        "name": "unstable_scroll",
+        "allow_offhand": true,
+        "icon": "unstable_scroll",
+        "custom_model_data": 7733249
+      },
+      {
+        "name": "file",
+        "allow_offhand": true,
+        "icon": "file",
+        "custom_model_data": 7733251
+      },
+      {
+        "name": "trowel",
+        "allow_offhand": true,
+        "icon": "trowel",
+        "custom_model_data": 7733262
+      },
+      {
+        "name": "spawn_scroll",
+        "allow_offhand": true,
+        "icon": "spawn_scroll",
+        "custom_model_data": 7733264
+      },
+      {
+        "name": "lodestone_scroll",
+        "allow_offhand": true,
+        "icon": "lodestone_scroll",
+        "custom_model_data": 7733265
+      },
+      {
+        "name": "death_scroll",
+        "allow_offhand": true,
+        "icon": "death_scroll",
+        "custom_model_data": 7733266
+      }
+    ],
+    "minecraft:wooden_hoe": [
+      {
+        "name": "wooden_sickle",
+        "allow_offhand": true,
+        "icon": "wooden_sickle",
+        "custom_model_data": 7733252
+      }
+    ]
+  }
+}

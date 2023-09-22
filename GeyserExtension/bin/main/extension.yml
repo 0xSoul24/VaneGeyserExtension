@@ -1,0 +1,6 @@
+id: vane
+name: VaneGeyser
+main: org.geyser.extension.vane.VaneGeyser
+api: 1.0.0
+version: 1.0.0
+authors: [0xSoul]

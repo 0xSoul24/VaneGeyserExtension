@@ -5,7 +5,7 @@
       {
         "name": "north_compass",
         "allow_offhand": true,
-        "icon": "north_compass_item",
+        "icon": "north_compass",
         "custom_model_data": 7733267
       }
     ],

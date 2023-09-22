@@ -22,7 +22,7 @@
     "reinforced_elytra": {
       "textures": [
         "textures/vane_trifles/items/reinforced_elytra",
-        "textures/vane_trifles/items/reinforced_elytra.broken"
+        "textures/vane_trifles/items/reinforced_elytra_broken"
       ]
     },
     "enchanted_ancient_tome": {

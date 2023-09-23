@@ -3,7 +3,7 @@ plugins {
     id 'java'
 }
 
-group 'org.geyser.extension.exampleid'
+group 'com.github.0xsoul.vanegeyser'
 version '1.0.0'
 
 repositories {

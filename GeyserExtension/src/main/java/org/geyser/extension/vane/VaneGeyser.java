@@ -283,10 +283,4 @@ public class VaneGeyser implements Extension {
             .build();
         event.register("minecraft:wooden_hoe", wooden_sickle);
     }
-
-    @Subscribe
-    public void onDefineCustomSkulls(GeyserDefineCustomSkullsEvent event) {
-        String profile = "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTI5YzcxMTU1YjNmYjQ5ZDNlNDhkNTI0MGMxZDY3MzY2NzU0ODhiMzg0OWU5NmFlZWNlNDIzYzhlMzM5YTMwYiJ9fX0="
-        event.registerCustomSkull(profile, SkullTextureType.PROFILE);
-    }
 }

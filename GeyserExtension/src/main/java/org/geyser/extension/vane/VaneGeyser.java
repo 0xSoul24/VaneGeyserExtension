@@ -6,8 +6,6 @@ import org.geysermc.geyser.api.event.lifecycle.GeyserPreInitializeEvent;
 import org.geysermc.geyser.api.extension.Extension;
 import org.geysermc.geyser.api.item.custom.CustomItemData;
 import org.geysermc.geyser.api.item.custom.CustomItemOptions;
-import org.geysermc.geyser.api.event.lifecycle.GeyserDefineCustomSkullsEvent;
-import org.geysermc.geyser.api.event.lifecycle.GeyserDefineCustomSkullsEvent.SkullTextureType;
 
 public class VaneGeyser implements Extension {
 

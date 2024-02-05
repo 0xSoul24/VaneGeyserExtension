@@ -5,7 +5,7 @@ import org.geysermc.geyser.api.extension.Extension;
 import org.geysermc.geyser.api.event.lifecycle.GeyserDefineCustomSkullsEvent;
 import org.geysermc.geyser.api.event.lifecycle.GeyserDefineCustomSkullsEvent.SkullTextureType;
 
-public class Skulls1 implements Extension {
+public class Skulls3 implements Extension {
 	@Subscribe
 	public void onDefineCustomSkulls(GeyserDefineCustomSkullsEvent event) {
 		event.register(

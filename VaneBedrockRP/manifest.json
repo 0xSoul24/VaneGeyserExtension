@@ -1,29 +1,29 @@
 {
-  "format_version": 2,
+  "format_version": 2.0,
   "header": {
     "description": "Adds Vane items for use with a Geyser proxy",
-    "name": "Vane plugin resource pack",
-    "uuid": "c810354a-0b8b-46d4-a6ed-67244c7cc7b2",
-    "version": [
-      1,
-      0,
-      0
-    ],
     "min_engine_version": [
-      1,
-      18,
-      3
+      1.0,
+      16.0,
+      0.0
+    ],
+    "name": "Vane",
+    "uuid": "96a38cdc-4207-4bb0-94d9-e09fe17e428e",
+    "version": [
+      1.0,
+      0.0,
+      0.0
     ]
   },
   "modules": [
     {
-      "description": "Adds 3D items for use with a Geyser proxy",
+      "description": "Vane plugin resource pack",
       "type": "resources",
-      "uuid": "91bf237d-02fb-4515-90d4-435e92d4229b",
+      "uuid": "16f17636-3ddd-4335-841c-a0ee1a3db206",
       "version": [
-        1,
-        0,
-        0
+        1.0,
+        0.0,
+        0.0
       ]
     }
   ]

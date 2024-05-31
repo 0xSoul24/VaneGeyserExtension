@@ -4,6 +4,7 @@ import org.geysermc.event.subscribe.Subscribe;
 import org.geysermc.geyser.api.event.lifecycle.GeyserDefineCustomItemsEvent;
 import org.geysermc.geyser.api.event.lifecycle.GeyserDefineCustomSkullsEvent;
 import org.geysermc.geyser.api.event.lifecycle.GeyserPreInitializeEvent;
+import org.geysermc.geyser.api.event.lifecycle.GeyserPostInitializeEvent;
 import org.geysermc.geyser.api.extension.Extension;
 import org.geysermc.geyser.api.item.custom.CustomItemData;
 import org.geysermc.geyser.api.item.custom.CustomItemOptions;
@@ -227,6 +228,16 @@ public class VaneGeyser implements Extension {
 				.customItemOptions(CustomItemOptions.builder().customModelData(7733252).build())
 				.textureSize(16).build();
 		event.register("minecraft:wooden_hoe", wooden_sickle);
+	}
+
+	@Subscribe
+	public void onPostInitialize(GeyserPostInitializeEvent event) {
+		this.logger().info("");
+		this.logger().info("##############################################");
+		this.logger().info("ITEMS REGISTERED SUCCESSFULLY");
+		this.logger().info("MAKING HEADS...");
+		this.logger().info("##############################################");
+		this.logger().info("");
 	}
 
 	@Subscribe

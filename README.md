@@ -27,4 +27,4 @@ GeyserMC files of Vane: A plugin-suite which provides many immersive and lore fr
 
 ##### Setup Local Translations
 
-- Copy the contents language json files to the corresponding file in locales folder in Geyser, then make them inmutable so they do not get overwritten with every server restart, you will get errors but they are safe to ignore
+- Copy the contents language json files to the corresponding file in locales/overrides directory in Geyser's config

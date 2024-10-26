@@ -9,8 +9,8 @@ name is the name of your extension. It can be anything.
 main is the main class of your extension, that will be loaded by Geyser.  
 **main: org.geyser.extension.exampleid.ExampleExtension**
 
-api is the version of the extension API that your extension uses.  
-**api: 1.0.0**
+api is the version of the Geyser API that your extension uses.  
+**api: 2.4.1**
 
 version is the version of your extension, you can bump it to indicate an update.  
 **version: 1.0.1**

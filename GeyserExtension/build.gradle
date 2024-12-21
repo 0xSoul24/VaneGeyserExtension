@@ -3,18 +3,18 @@ plugins {
     id 'java'
 }
 
-group 'com.github.0xsoul.vanegeyser'
-version '1.0.0'
+group = 'com.github.0xsoul.vanegeyser'
+version = '1.0.0'
 
 repositories {
     maven {
-        url 'https://repo.opencollab.dev/maven-snapshots'
+        url = 'https://repo.opencollab.dev/maven-snapshots'
         mavenContent {
             snapshotsOnly()
         }
     }
     maven {
-        url 'https://repo.opencollab.dev/maven-releases'
+        url = 'https://repo.opencollab.dev/maven-releases'
         mavenContent {
             releasesOnly()
         }

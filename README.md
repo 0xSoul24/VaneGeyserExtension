@@ -2,7 +2,8 @@
 
 ---
 
-GeyserMC files of Vane: A plugin-suite which provides many immersive and lore friendly additions to vanilla minecraft. <https://github.com/oddlama/vane>
+GeyserMC files of Vane: A plugin-suite which provides many immersive and lore friendly additions to vanilla
+minecraft. <https://github.com/oddlama/vane>
 
 ## To-do list
 

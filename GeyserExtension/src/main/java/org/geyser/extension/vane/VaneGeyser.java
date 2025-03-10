@@ -242,17 +242,17 @@ public class VaneGeyser implements Extension {
         this.logger().info("");
     }
 
-    @Subscribe
-    public void onServerReady(GeyserDefineCustomSkullsEvent event) {
-        Skulls1 skulls1 = new Skulls1();
-        skulls1.onDefineCustomSkulls(event);
-        Skulls2 skulls2 = new Skulls2();
-        skulls2.onDefineCustomSkulls(event);
-        Skulls3 skulls3 = new Skulls3();
-        skulls3.onDefineCustomSkulls(event);
-        Skulls4 skulls4 = new Skulls4();
-        skulls4.onDefineCustomSkulls(event);
-        Skulls5 skulls5 = new Skulls5();
-        skulls5.onDefineCustomSkulls(event);
-    }
+//    @Subscribe
+//    public void onServerReady(GeyserDefineCustomSkullsEvent event) {
+//        Skulls1 skulls1 = new Skulls1();
+//        skulls1.onDefineCustomSkulls(event);
+//        Skulls2 skulls2 = new Skulls2();
+//        skulls2.onDefineCustomSkulls(event);
+//        Skulls3 skulls3 = new Skulls3();
+//        skulls3.onDefineCustomSkulls(event);
+//        Skulls4 skulls4 = new Skulls4();
+//        skulls4.onDefineCustomSkulls(event);
+//        Skulls5 skulls5 = new Skulls5();
+//        skulls5.onDefineCustomSkulls(event);
+//    }
 }

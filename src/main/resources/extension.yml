@@ -1,0 +1,6 @@
+id: $id
+name: $name
+main: org.geyser.extension.vane.Vane
+api: $api
+version: $version
+authors: [ $author ]

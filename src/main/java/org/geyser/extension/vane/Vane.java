@@ -8,6 +8,7 @@ import org.geysermc.geyser.api.event.lifecycle.GeyserPreInitializeEvent;
 import org.geysermc.geyser.api.extension.Extension;
 import org.geysermc.geyser.api.item.custom.CustomItemData;
 import org.geysermc.geyser.api.item.custom.CustomItemOptions;
+import org.geysermc.geyser.api.util.CreativeCategory;
 
 import java.nio.file.Path;
 
@@ -36,6 +37,7 @@ public class Vane implements Extension {
                 .name("ancient_tome")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7798784).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.ITEMS.id())
                 .build();
         event.register("minecraft:book", ancient_tome);
 
@@ -43,6 +45,7 @@ public class Vane implements Extension {
                 .name("ancient_tome_of_knowledge")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7798786).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.ITEMS.id())
                 .build();
         event.register("minecraft:book", ancient_tome_of_knowledge);
 
@@ -50,6 +53,7 @@ public class Vane implements Extension {
                 .name("ancient_tome_of_the_gods")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7798788).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.ITEMS.id())
                 .build();
         event.register("minecraft:book", ancient_tome_of_the_gods);
 
@@ -60,6 +64,7 @@ public class Vane implements Extension {
                 .name("north_compass")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733267).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:compass", north_compass);
 
@@ -70,6 +75,7 @@ public class Vane implements Extension {
                 .name("diamond_sickle")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733256).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:diamond_hoe", diamond_sickle);
 
@@ -80,6 +86,7 @@ public class Vane implements Extension {
                 .name("pouch")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733270).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.ITEMS.id())
                 .build();
         event.register("minecraft:dropper", pouch);
 
@@ -90,6 +97,7 @@ public class Vane implements Extension {
                 .name("reinforced_elytra")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733250).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:elytra", reinforced_elytra);
 
@@ -100,6 +108,7 @@ public class Vane implements Extension {
                 .name("enchanted_ancient_tome")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7798785).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.ITEMS.id())
                 .build();
         event.register("minecraft:enchanted_book", enchanted_ancient_tome);
 
@@ -107,6 +116,7 @@ public class Vane implements Extension {
                 .name("enchanted_ancient_tome_of_knowledge")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7798787).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.ITEMS.id())
                 .build();
         event.register("minecraft:enchanted_book", enchanted_ancient_tome_of_knowledge);
 
@@ -114,6 +124,7 @@ public class Vane implements Extension {
                 .name("enchanted_ancient_tome_of_the_gods")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7798789).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.ITEMS.id())
                 .build();
         event.register("minecraft:enchanted_book", enchanted_ancient_tome_of_the_gods);
 
@@ -124,6 +135,7 @@ public class Vane implements Extension {
                 .name("empty_xp_bottle")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733258).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:glass_bottle", empty_xp_bottle);
 
@@ -134,6 +146,7 @@ public class Vane implements Extension {
                 .name("golden_sickle")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733255).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:diamond_hoe", golden_sickle);
 
@@ -144,6 +157,7 @@ public class Vane implements Extension {
                 .name("small_xp_bottle")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733259).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.ITEMS.id())
                 .build();
         event.register("minecraft:glass_bottle", small_xp_bottle);
 
@@ -151,6 +165,7 @@ public class Vane implements Extension {
                 .name("medium_xp_bottle")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733260).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:glass_bottle", medium_xp_bottle);
 
@@ -158,6 +173,7 @@ public class Vane implements Extension {
                 .name("large_xp_bottle")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733261).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:glass_bottle", large_xp_bottle);
 
@@ -168,6 +184,7 @@ public class Vane implements Extension {
                 .name("iron_sickle")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733254).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:diamond_hoe", iron_sickle);
 
@@ -178,6 +195,7 @@ public class Vane implements Extension {
                 .name("netherite_sickle")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733257).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:diamond_hoe", netherite_sickle);
 
@@ -188,6 +206,7 @@ public class Vane implements Extension {
                 .name("papyrus_scroll")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733263).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.ITEMS.id())
                 .build();
         event.register("minecraft:paper", papyrus_scroll);
 
@@ -198,6 +217,7 @@ public class Vane implements Extension {
                 .name("backpack")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733271).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.ITEMS.id())
                 .build();
         event.register("minecraft:shulker_box", backpack);
 
@@ -208,6 +228,7 @@ public class Vane implements Extension {
                 .name("slime_bucket")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733268).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.ITEMS.id())
                 .build();
         event.register("minecraft:slime_ball", slime_bucket);
 
@@ -215,6 +236,7 @@ public class Vane implements Extension {
                 .name("slime_bucket_excited")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733269).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.ITEMS.id())
                 .build();
         event.register("minecraft:slime_ball", slime_bucket_excited);
 
@@ -225,6 +247,7 @@ public class Vane implements Extension {
                 .name("stone_sickle")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733253).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:stone_hoe", stone_sickle);
 
@@ -235,6 +258,7 @@ public class Vane implements Extension {
                 .name("home_scroll")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733248).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:warped_fungus_on_a_stick", home_scroll);
 
@@ -242,6 +266,7 @@ public class Vane implements Extension {
                 .name("unstable_scroll")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733249).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:warped_fungus_on_a_stick", unstable_scroll);
 
@@ -249,6 +274,7 @@ public class Vane implements Extension {
                 .name("file")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733251).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:warped_fungus_on_a_stick", file);
 
@@ -256,6 +282,7 @@ public class Vane implements Extension {
                 .name("trowel")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733262).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:warped_fungus_on_a_stick", trowel);
 
@@ -263,6 +290,7 @@ public class Vane implements Extension {
                 .name("spawn_scroll")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733264).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:warped_fungus_on_a_stick", spawn_scroll);
 
@@ -270,6 +298,7 @@ public class Vane implements Extension {
                 .name("lodestone_scroll")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733265).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:warped_fungus_on_a_stick", lodestone_scroll);
 
@@ -277,6 +306,7 @@ public class Vane implements Extension {
                 .name("death_scroll")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733266).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:warped_fungus_on_a_stick", death_scroll);
 
@@ -287,6 +317,7 @@ public class Vane implements Extension {
                 .name("wooden_sickle")
                 .customItemOptions(CustomItemOptions.builder().customModelData(7733252).build())
                 .textureSize(16)
+                .creativeCategory(CreativeCategory.EQUIPMENT.id())
                 .build();
         event.register("minecraft:wooden_hoe", wooden_sickle);
     }

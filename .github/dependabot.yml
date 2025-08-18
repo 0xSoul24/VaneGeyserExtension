@@ -1,0 +1,11 @@
+# Dependabot configuration for VaneGeyserExtension
+# This configuration enables automatic dependency updates for Gradle dependencies
+# and GitHub Actions workflows.
+
+version: 2
+updates:
+  # Enable version updates for Gradle dependencies
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "daily"

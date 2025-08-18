@@ -1,4 +1,4 @@
-package org.geyser.extension.vane;
+package me.the_0xsoul.extension.vane;
 
 import org.geysermc.event.subscribe.Subscribe;
 import org.geysermc.geyser.api.event.lifecycle.GeyserDefineCustomItemsEvent;

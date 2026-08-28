@@ -6,7 +6,7 @@ val id = project.property("id") as String
 val extensionName = project.property("name") as String
 val author = project.property("author") as String
 val version = project.version as String
-val geyserApiVersion = "2.8.3"
+val geyserApiVersion = "2.11.2"
 
 repositories {
     // Repo for the Geyser API artifact

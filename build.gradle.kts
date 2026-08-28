@@ -23,10 +23,10 @@ dependencies {
     // Include other dependencies here - e.g. configuration libraries.
 }
 
-// Java currently requires Java 17 or higher, so extensions should also target it
+// Java currently requires Java 21 or higher, so extensions should also target it
 java {
-    targetCompatibility = JavaVersion.VERSION_17
-    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_21
+    sourceCompatibility = JavaVersion.VERSION_21
 }
 
 afterEvaluate {
